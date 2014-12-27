@@ -13,7 +13,7 @@ The program determines the file creation date in the following order..
 
 ## Installation
 
-Download from standalone jar from https://github.com/assatishkumar/med-org/tree/master/download/med-org-0.1.0-standalone.jar
+Download the med-org-0.1.0-standalone.jar from https://github.com/assatishkumar/med-org/tree/master/download/med-org-0.1.0-standalone.jar
 
 ## Usage
 
@@ -22,7 +22,7 @@ This utility should be run from commandline. Requires JDK 6 or above
     $ java -jar med-org-0.1.0-standalone.jar -s /path/to/your/media/files -d /path/to/destination/dir
 
 ## Options
-
+'''
 The utility is configurable and it accepts the following options
 
 Options:
@@ -42,18 +42,21 @@ Options:
                                                     Default pattern (19|20)\d\d-(0[1-9]|1[012])-(0[1-9]|[12][0-9]|3[01])
   -c, --copy                                     (Optional) Copy files. If not provided, the files are MOVED
   -h, --help                                     To see this usage summary
-
+'''
 
 ## Examples
 
-To move files
+# To move files
 
 $ java -jar med-org-0.1.0-standalone.jar -s /path/to/your/media/files -d /path/to/destination/dir
 
-To copy files
+# To copy files
 
 $ java -jar med-org-0.1.0-standalone.jar -s /path/to/your/media/files -d /path/to/destination/dir -c
 
+# To see options (or help)
+
+$ java -jar med-org-0.1.0-standalone.jar -h
 
 ## License
 
