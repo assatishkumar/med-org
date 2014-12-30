@@ -5,10 +5,10 @@ This is a command line utility which helps you in organizing your media files ch
 It finds all the media files (such as JPG, PNG, BMP, GIF, MP4 etc) from the "src-dir" and moves them to "dest-dir". While moving the files it  organizes the media by it's creation date in the following directory structure - \"dest-dir\"/year/year_month/year_month_day.
 
 The program determines the file creation date in the following order..
-1. Extract creation date from EXIF
-2. Extract the creation date from the file name.
-3. Extract the creation date from the directory in which the file is present
-4. Finally, if above all fails, then it gets from the last modifed date of the file.
+1. Creation date from EXIF
+2. Creation date from the file name (if it is based on date).
+3. Creation date from the directory in which the file is present (if it is based on date)
+4. Finally, if above all fails, the last modifed date of the file.
 
 
 ## Installation
